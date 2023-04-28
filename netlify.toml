@@ -1,0 +1,16 @@
+[build]
+  # This is the command to build your Gatsby project
+  command = "gatsby build"
+  # This is the directory where the built files will be located
+  publish = "public"
+
+# This plugin enables faster Gatsby builds on Netlify
+[[plugins]]
+  package = "netlify-plugin-gatsby"
+  
+# If you need to set up redirects, you can do so in this section
+# Example of a redirect from /old-path to /new-path with a 301 status code
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
