@@ -25,7 +25,6 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-netlify",
-    "gatsby-plugin-netlify-cache",
     "gatsby-plugin-vanilla-extract",
     {
       resolve: "gatsby-plugin-manifest",
