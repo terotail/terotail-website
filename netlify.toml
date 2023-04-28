@@ -6,7 +6,7 @@
 
 # This plugin enables faster Gatsby builds on Netlify
 [[plugins]]
-  package = "netlify-plugin-gatsby"
+  package = "gatsby-plugin-netlify"
   
 # If you need to set up redirects, you can do so in this section
 # Example of a redirect from /old-path to /new-path with a 301 status code
